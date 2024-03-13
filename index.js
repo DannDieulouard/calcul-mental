@@ -3,7 +3,9 @@ const numberDivs = document.querySelectorAll('.number')
 const btnDivs = document.querySelectorAll('.btn')
 const resultDiv = document.querySelector('.result')
 const refreshDiv = document.querySelector('.refresh')
+
 let correctResult = 0
+
 for (let i = 0; i < btnDivs.length; i++) {
     btnDivs[i].addEventListener("click", onBtnClick)
 }
